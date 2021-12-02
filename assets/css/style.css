@@ -16,16 +16,6 @@ p {
 }
 
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -74,6 +64,7 @@ body {
 }
 
 /* Removed class and changed to element section */
+/* Removed classes and conslidated extra CSS */
 
 section {
     width: 75%;
@@ -81,8 +72,15 @@ section {
     margin-left: 20px;
 }
 
-/* Removed classes and conslidated extra CSS */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
 
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 
 section article {
     margin-bottom: 20px;
@@ -102,7 +100,7 @@ section article h2 {
     font-size: 36px;
 }
 
-
+/* Updated to HTML element aside */
 /* Consolidated CSS selectors by removing individual classes and selectors */
 /* Moved to below section and article CSS */
 
@@ -134,7 +132,7 @@ aside img {
     max-width: 150px;
 }
 
-/* Removed class and changed to element footer */
+/* Removed class and changed to HTML element footer */
 
 footer {
     padding: 30px;
