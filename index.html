@@ -10,9 +10,10 @@
 </head>
 
 <!-- Changed element to header -->
+<!-- Changed div to semantic element nav -->
 
 <header>
-    <div class="header">
+    <nav class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
             <ul>
@@ -27,19 +28,20 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </nav>
 </header>
 
-<!-- Added body element -->
+<!-- Adjusted body element -->
 
 <body>
     <div class="hero"></div>
 
     <!-- Spaced each section out -->
     <!-- Added alt to images -->
+    <!-- Added id so navigation links work -->
 
     <div class="content">
-        <div class="search-engine-optimization">
+        <div class="search-engine-optimization" id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="Horiseon provides search engine management"class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -47,7 +49,7 @@
             </p>
         </div>
 
-        <div id="online-reputation-management" class="online-reputation-management">
+        <div id="online-reputation-management" class="online-reputation-management" id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" alt="Horiseon provides online reputation management" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -55,7 +57,7 @@
             </p>
         </div>
 
-        <div id="social-media-marketing" class="social-media-marketing">
+        <div id="social-media-marketing" class="social-media-marketing" id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" alt="Horiseon provides social media marketing" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
