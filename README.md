@@ -1,6 +1,6 @@
 # urban-octo-telegram
 Bootcamp Challenge 1
 
-More information to come soon!
+Site code cleaned up and made more efficient per the challenge.
 
 Created by Nick B with ❤️;
