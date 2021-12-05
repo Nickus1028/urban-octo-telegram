@@ -8,7 +8,6 @@ Summary: Site code cleaned up and made more efficient per the challenge.
 HTML Changes:
 <ul>
 <li>Changed title to Horiseon</li>
-<li>Added Tite to the site.</li>
 <li>Made sure navigation links work.</li>
 <li>Changed elements to HTML semantic elements.</li>
 <li>Removed classes.</li>
